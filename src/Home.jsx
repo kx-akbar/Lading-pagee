@@ -1,10 +1,13 @@
 import React from "react";
 import "./assets/style/home.css";
+import "./assets/style/repo.css";
 import bookImg from "./assets/images/material-symbols_menu-book.png";
 import iconLogo from "./assets/images/material-symbols_award-star-rounded.png";
 import playIcon from "./assets/images/material-symbols_play-arrow-rounded.png";
 import bookIcon from "./assets/images/material-symbols_menu-book.png";
 import awakeningLogo from "./assets/images/anthomkii_a_magician_student_who_send_a_spell_with_his_magical__6aa168b9-50d1-49bd-a934-2161c3bda70a 1.png";
+import brownImg from "./assets/images/material-symbols_menu-book (1).png";
+import magicImg from "./assets/images/bi_magic.png";
 
 const Home = () => {
   return (
@@ -102,6 +105,56 @@ const Home = () => {
             </div>
           </div>
         </section>
+        <section className="section-awakening">
+          <img src={awakeningLogo} alt="Not Found Images" />
+          <div className="text-awakening">
+            <h1>The Awakening of the Powers</h1>
+            <p>
+              Immerse yourself in a world where magic is real, spells weave in
+              the air, and adventure is at the end of every wand. Follow in the
+              footsteps of a young magic student who discovers the hidden
+              secrets of ancestral mysteries. The Awakening of Powers is the
+              beginning of an extraordinary journey, where the fate of our hero
+              and the balance of the kingdom rest in his hands. Embark on this
+              spellbinding quest and join us on a magical journey beyond
+              imagination. The adventure starts here.
+            </p>
+            <button className="button1">
+              Get the book <img src={brownImg} alt="Not Found Images" />
+            </button>
+          </div>
+        </section>
+        <footer className="footer">
+          <div className="footer-description">
+            <div className="list">
+              <ul>
+                <li>Contact the Magical Academy:</li>
+                <li>123 Magic Street, Enchanter's County, Arcane Kingdom</li>
+                <li>Email : contact@academiedesarcanes.com</li>
+                <li>Téléphone : +XX XXX XXX XXX</li>
+                <li>We accept owl mail, as long as you don't spam us</li>
+              </ul>
+              <ul>
+                <li>Useful links</li>
+                <li>Home</li>
+                <li>The Univers</li>
+                <li>Books</li>
+                <li>About the Author</li>
+                <li>Contact</li>
+              </ul>
+            </div>
+            <img src={magicImg} alt="Not Found Images" />
+          </div>
+          <div className="footer-end">
+            <div className="footer-text">
+              <p>Privacy Policy</p>
+              <p>Terms of use</p>
+            </div>
+            <div className="footer-text2">
+              <p>© 2023 Arcane Academy. All rights reserved.</p>
+            </div>
+          </div>
+        </footer>
       </main>
     </div>
   );

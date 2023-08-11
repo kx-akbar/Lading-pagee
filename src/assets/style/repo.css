@@ -1,0 +1,82 @@
+/* Responsive Web Design */
+
+@media only screen and (max-width: 1400px) {
+  html {
+    font-size: 15px;
+  }
+
+  .section-awakening > img {
+    width: 24em;
+    height: 23em;
+  }
+
+  .text-awakening {
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 30px;
+  }
+
+  .section-awakening {
+    gap: 60px;
+  }
+
+  .text-awakening button {
+    padding: 0.3em 0.7em;
+    gap: 10px;
+    font-size: 14px;
+  }
+
+  .text-awakening button img {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .text-awakening {
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .text-awakening p {
+    line-height: 1.4em;
+  }
+
+  .page-1 h2 {
+    width: 180px;
+    font-size: 1.8em;
+    line-height: 1.2em;
+  }
+
+  .page-2 h2 {
+    width: 10em;
+    font-size: 1.8em;
+    line-height: 1.4em;
+  }
+
+  .page-3 h2 {
+    width: 10em;
+    font-size: 1.8em;
+    line-height: 1.4em;
+  }
+
+  .page-1 > h2 + p {
+    width: 17em;
+    font-size: 0.9em;
+    margin: 0.9em auto 1.6em auto;
+  }
+
+  .page-2 > h2 + p,
+  .page-3 > h2 + p {
+    width: 17em;
+    font-size: 0.9em;
+    margin: 0.9em auto 1.6em auto;
+  }
+
+  .text {
+    font-size: 0.7em;
+    line-height: 1.8em;
+    width: 26.2em;
+  }
+}
