@@ -263,4 +263,13 @@
   .list1{
     margin-top: 0.5em;
   }
+
+  .footer-img{
+    width: 19em;
+    height: 22em;
+  }
+}
+
+@media only screen and (max-width: 576px){
+  
 }

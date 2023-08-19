@@ -143,7 +143,7 @@ const Home = () => {
                 <li>Contact</li>
               </ul>
             </div>
-            <img src={magicImg} alt="Not Found Images" />
+            <img className="footer-img" src={magicImg} alt="Not Found Images" />
           </div>
           <div className="footer-end">
             <div className="footer-text">
