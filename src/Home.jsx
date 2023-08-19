@@ -135,7 +135,7 @@ const Home = () => {
                 <li>We accept owl mail, as long as you don't spam us</li>
               </ul>
               <ul>
-                <li>Useful links</li>
+                <li className="list1">Useful links</li>
                 <li>Home</li>
                 <li>The Univers</li>
                 <li>Books</li>

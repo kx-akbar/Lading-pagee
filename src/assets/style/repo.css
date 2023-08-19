@@ -255,5 +255,12 @@
     height: 26em;
   }
 
+  .list ul li:first-child{
+    font-size: 17px;
+    margin-bottom: 0;
+  }
   
+  .list1{
+    margin-top: 0.5em;
+  }
 }
