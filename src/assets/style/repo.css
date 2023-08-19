@@ -185,17 +185,23 @@
     font-size: 6px;
   }
 
-  .nav > button{
+  .page-1 h2 {
+    width: 8em;
+    font-size: 1.8em;
+    line-height: 1.2em;
+}
+
+  .nav > button {
     font-size: 14px;
     padding: 0.3em 1.1em;
     margin-left: 4em;
   }
 
-  .nav > button img{
+  .nav > button img {
     width: 1.2em;
   }
 
-  .title-con{
+  .title-con {
     width: 50em;
   }
 
@@ -203,13 +209,13 @@
     font-size: 3em;
   }
 
-  .btn1{
+  .btn1 {
     font-size: 12px;
     width: 11em;
     padding: 0.5em 0 0.5em 0.9em;
   }
 
-  .btn2{
+  .btn2 {
     display: flex;
     align-items: center;
     font-size: 12px;
@@ -217,20 +223,20 @@
     padding: 0.3em 0.9em 0.2em 0.5em;
   }
 
-  .text-awakening{
+  .text-awakening {
     position: relative;
     gap: 0;
     top: -0.9em;
   }
 
-  .text-awakening h1{
+  .text-awakening h1 {
     position: absolute;
     font-size: 14px;
     top: 0;
     width: 14em;
   }
 
-  .text-awakening p{
+  .text-awakening p {
     position: absolute;
     width: 26em;
     top: 4em;
@@ -238,38 +244,273 @@
     font-size: 1em;
   }
 
-  .text-awakening button{
+  .text-awakening button {
     position: absolute;
     font-size: 12px;
     padding: 0.2em 0.5em;
     top: 8.8em;
   }
 
-  .text-awakening button img{
+  .text-awakening button img {
     width: 1em;
     height: 1em;
   }
 
-  .section-awakening > img{
+  .section-awakening > img {
     width: 28em;
     height: 26em;
   }
 
-  .list ul li:first-child{
+  .list ul li:first-child {
     font-size: 17px;
     margin-bottom: 0;
   }
-  
-  .list1{
+
+  .list1 {
     margin-top: 0.5em;
   }
 
-  .footer-img{
+  .footer-img {
     width: 19em;
     height: 22em;
   }
 }
 
-@media only screen and (max-width: 576px){
-  
+@media only screen and (max-width: 576px) {
+  .nav span {
+    margin: 0 1.2em;
+  }
+
+  .nav > button {
+    font-size: 13px;
+    padding: 0.3em 0.8em;
+    margin-left: 3em;
+  }
+
+  .nav > button img {
+    width: 1em;
+  }
+
+  .btn1 {
+    font-size: 10px;
+    width: 11em;
+    padding: 0.5em 0 0.5em 0.9em;
+  }
+
+  .btn2 {
+    display: flex;
+    align-items: center;
+    font-size: 11px;
+    width: 11em;
+    padding: 0.3em 0.9em 0.2em 0.5em;
+  }
+
+  .btn2 img {
+    width: 2.1em;
+  }
+
+  .title-con {
+    width: 60em;
+  }
+
+  .title-con h1 {
+    font-size: 3.7em;
+  }
+
+  .section-awakening {
+    gap: 35px;
+  }
+
+  .list ul li:first-child {
+    font-size: 15px;
+    margin-bottom: 0;
+  }
+
+  .list1 {
+    margin-top: 0.4em;
+  }
+
+  .footer-img {
+    width: 18em;
+    height: 20em;
+  }
+
+  .footer-text p {
+    font-size: 1.4em;
+  }
+
+  .footer-text2 p {
+    font-size: 1.4em;
+  }
+}
+
+@media only screen and (max-width: 495px) {
+  html,
+  body {
+    font-size: 5px;
+    position: relative;
+  }
+
+  .main {
+    width: 100%;
+    position: absolute;
+  }
+}
+
+@media only screen and (max-width: 451px) {
+  html,
+  body {
+    font-size: 5px;
+    position: relative;
+  }
+
+  .main {
+    width: 103.5%;
+    position: absolute;
+  }
+
+  .icon-con img {
+    width: 1.5em;
+  }
+
+  .btn1 {
+    font-size: 9px;
+    width: 11em;
+    padding: 0.2em 0 0.3em 0.9em;
+  }
+
+  .btn2 {
+    font-size: 9px;
+    width: 11em;
+    padding: 0.2em 0.3em 0.3em 0;
+  }
+
+  .text-awakening button {
+    top: 8.5em;
+    font-size: 10px;
+  }
+
+  .list ul li:first-child {
+    font-size: 12px;
+  }
+
+  .section-awakening > img {
+    width: 22.5em;
+    height: 22em;
+  }
+
+  .text-awakening h1 {
+    font-size: 12px;
+    top: 0.6em;
+  }
+
+  .text-awakening p {
+    line-height: 1.3em;
+    top: 4.5em;
+  }
+}
+
+@media only screen and (max-width: 410px) {
+  .main {
+    width: 105%;
+    position: absolute;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .main {
+    width: 108%;
+    position: absolute;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .main {
+    width: 110%;
+    position: absolute;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .main {
+    width: 113%;
+    position: absolute;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .main {
+    width: 115%;
+    position: absolute;
+  }
+}
+
+@media only screen and (max-width: 365px) {
+  .main {
+    width: 117.5%;
+    position: absolute;
+  }
+}
+
+@media only screen and (max-width: 355px) {
+  .main {
+    width: 120%;
+    position: absolute;
+  }
+}
+
+@media only screen and (max-width: 345px) {
+  .main {
+    width: 125%;
+    position: absolute;
+  }
+}
+
+@media only screen and (max-width: 335px) {
+  .main {
+    width: 129%;
+    position: absolute;
+  }
+}
+
+@media only screen and (max-width: 326px) {
+  .main {
+    width: 132%;
+    position: absolute;
+  }
+}
+
+@media only screen and (max-width: 318px) {
+  .main {
+    width: 135.5%;
+    position: absolute;
+  }
+}
+
+@media only screen and (max-width: 312px) {
+  .main {
+    width: 138.5%;
+    position: absolute;
+  }
+}
+
+@media only screen and (max-width: 306px) {
+  .main {
+    width: 141.5%;
+    position: absolute;
+  }
+}
+
+@media only screen and (max-width: 296px) {
+  .main {
+    width: 145%;
+    position: absolute;
+  }
+}
+
+@media only screen and (max-width: 290px) {
+  .main {
+    width: 147%;
+    position: absolute;
+  }
 }
