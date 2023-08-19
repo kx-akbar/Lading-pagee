@@ -80,7 +80,8 @@ nav a {
 @font-face {
   font-family: English;
   src: url(../fonts/IMFellEnglish-Italic.ttf)
-    url(../fonts/IMFellEnglish-Regular.ttf);
+    url(../fonts/IMFellEnglish-Regular.ttf)
+    url(../fonts/IMFellEnglish-Italic.ttf);
 }
 
 .section-page {
