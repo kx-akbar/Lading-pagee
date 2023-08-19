@@ -11,6 +11,8 @@ a {
   cursor: pointer;
 }
 
+/* Header */
+
 .header {
   display: flex;
   flex-direction: column;
@@ -24,7 +26,6 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* border: none; */
   outline: none;
 }
 
@@ -74,7 +75,7 @@ nav a {
   margin-left: 10px;
 }
 
-/* ========================================================================================================= */
+/* /Header */
 
 @font-face {
   font-family: English;
